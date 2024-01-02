@@ -62,10 +62,12 @@ export default function ContactForm() {
                   message: 'Enter your Email Address',
                 },
               })}
+              error={Boolean(errors.email)}
+              helperText={errors.email?.message}
             />
-            <Typography variant='body-3' sx={{ color: 'red' }} mb={2}>
+            {/* <Typography variant='body-3' sx={{ color: 'red' }} mb={2}>
               {errors.email?.message}
-            </Typography>
+            </Typography> */}
           </Stack>
 
           <Stack>
@@ -77,6 +79,7 @@ export default function ContactForm() {
               id='subject'
               placeholder='This is optional'
               {...register('subject')}
+              
             />
           </Stack>
 
@@ -102,10 +105,12 @@ export default function ContactForm() {
                   message: 'Enter your message',
                 },
               })}
+              error={Boolean(errors.message)}
+              helperText={errors.message?.message}
             />
-            <Typography variant='body-3' sx={{ color: 'red' }} mb={2}>
+            {/* <Typography variant='body-3' sx={{ color: 'red' }} mb={2}>
               {errors.message?.message}
-            </Typography>
+            </Typography> */}
           </Stack>
 
           <Stack direction='row'>
