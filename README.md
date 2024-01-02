@@ -1,8 +1,6 @@
-# React + Vite
+![Static Badge](https://img.shields.io/badge/react-vite)   ![NPM](https://img.shields.io/npm/l/storybook)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TECHNOLOGIES USED:
+React-vite, storybook,axios, git, material ui, react hook forms, react-router-dom, styled-components, eslint-plugin, prettier,prettier config file , react-devtools, raw css, CONTEXT API.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vercel URl : e-comerce-jb7fp1jhx-sheilas-projects-fcfdc2db.vercel.app
