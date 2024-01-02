@@ -79,7 +79,6 @@ export default function ContactForm() {
               id='subject'
               placeholder='This is optional'
               {...register('subject')}
-              
             />
           </Stack>
 

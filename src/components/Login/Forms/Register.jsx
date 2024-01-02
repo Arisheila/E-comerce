@@ -49,7 +49,6 @@ export default function LoginForm() {
                 message: 'Enter your email address',
               },
             })}
-
             error={Boolean(errors.email)}
             helperText={errors.email?.message}
           />

@@ -77,8 +77,7 @@ export default function LoginForm() {
                   },
                 })}
                 error={Boolean(errors.email)}
-               helperText={errors.email?.message}
-
+                helperText={errors.email?.message}
               />
               {/* <Typography variant='body-3' sx={{ color: 'red' }} mb={2}>
                 {errors.email?.message}
@@ -105,8 +104,6 @@ export default function LoginForm() {
                 })}
                 error={Boolean(errors.password)}
                 helperText={errors.password?.message}
-
-
               />
               {/* <Typography variant='body-3' sx={{ color: 'red' }} mb={2}>
                 {errors.password?.message}

@@ -39,7 +39,6 @@ export default function CheckoutForm({ register, control, handleSubmit, formStat
               })}
               error={Boolean(errors.firstname)}
               helperText={errors.firstname?.message}
-
             />
 
             {/* <Typography variant='body-3' sx={{ color: 'red' }} mb={2}>
@@ -63,7 +62,6 @@ export default function CheckoutForm({ register, control, handleSubmit, formStat
               })}
               error={Boolean(errors.lastname)}
               helperText={errors.lastname?.message}
-
             />
             {/* <Typography variant='body-3' sx={{ color: 'red' }} mb={2}>
               {errors.lastname?.message}
@@ -232,7 +230,6 @@ export default function CheckoutForm({ register, control, handleSubmit, formStat
                 message: 'Enter Additional Message',
               },
             })}
-
             error={Boolean(errors.message)}
             helperText={errors.message?.message}
           />
