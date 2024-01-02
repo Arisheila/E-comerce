@@ -3,4 +3,4 @@
 TECHNOLOGIES USED:
 React-vite, storybook,axios, git, material ui, react hook forms, react-router-dom, styled-components, eslint-plugin, prettier,prettier config file , react-devtools, raw css, CONTEXT API.
 
-Vercel URl : e-comerce-19gjm7omv-sheilas-projects-fcfdc2db.vercel.app
+Vercel URl : e-comerce-gmh0ippe8-sheilas-projects-fcfdc2db.vercel.app
